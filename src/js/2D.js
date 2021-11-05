@@ -26,7 +26,7 @@ function createPlot(folder_path, file_event, event_name, div_name, random_color)
         });
     }
 
-    for(var i = 0; i < 10; i++){
+    for(var i = 0; i < 40; i++){
         createTrace(data, folder_path + i.toString() + file_event + '.csv', 'Player ' + i.toString(), 'markers', 'scatter', random_color[i])
     }
     
