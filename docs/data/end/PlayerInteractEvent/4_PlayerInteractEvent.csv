@@ -1,0 +1,5 @@
+x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
+261,1,-1,4,world_the_end,18044590,,,,,,,,,,,DIAMOND_SWORD,RIGHT_CLICK_BLOCK
+128,0,0,4,world_the_end,18048244,,,,,,,,,,,AIR,LEFT_CLICK_AIR
+236,0,0,4,world_the_end,18061951,,,,,,,,,,,COOKED_BEEF,RIGHT_CLICK_AIR
+104,29,0,4,world_the_end,18062859,,,,,,,,,,,COOKED_BEEF,RIGHT_CLICK_BLOCK

@@ -1,0 +1,5 @@
+x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
+-15,56,-7,2,world_the_end,19195563,END_STONE,,,,,,,,,,,
+-16,60,-7,2,world_the_end,19195742,END_STONE,,,,,,,,,,,
+1298,61,383,2,world_the_end,19233999,ENDER_CHEST,,,,,,,,,,,
+1351,90,-249,2,world_the_end,21769860,PURPUR_BLOCK,,,,,,,,,,,

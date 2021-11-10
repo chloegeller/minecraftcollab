@@ -1,0 +1,13 @@
+x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
+-16,61,-7,2,world_the_end,19176099,END_STONE,,,,,,,,,,,
+-17,57,-7,2,world_the_end,19176654,END_STONE,,,,,,,,,,,
+1325,111,467,2,world_the_end,19204894,END_ROD,,,,,,,,,,,
+1343,62,392,2,world_the_end,19243679,END_STONE,,,,,,,,,,,
+1347,90,-252,2,world_the_end,21769495,PURPUR_PILLAR,,,,,,,,,,,
+1346,98,-253,2,world_the_end,21770302,END_ROD,,,,,,,,,,,
+1329,127,-252,2,world_the_end,21784113,PURPUR_PILLAR,,,,,,,,,,,
+1332,57,-135,2,world_the_end,21789374,END_STONE,,,,,,,,,,,
+397,111,2698,2,world_the_end,26931523,PURPUR_PILLAR,,,,,,,,,,,
+2583,60,3593,2,world_the_end,26941866,END_STONE,,,,,,,,,,,
+2604,60,3603,2,world_the_end,26942044,END_STONE,,,,,,,,,,,
+2599,60,3602,2,world_the_end,26942257,END_STONE,,,,,,,,,,,

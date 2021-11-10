@@ -1,0 +1,10 @@
+x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
+89,57,1,0,world_the_end,4320286,,,,ARROW,ENDER_CRYSTAL,,,,,,,
+-4,63,8,0,world_the_end,4326791,,,,ARROW,UNKNOWN,,,,,,,
+-1839,114,1733,0,world_the_end,4587687,,,,ARROW,SHULKER,,,,,,,
+407,82,2652,0,world_the_end,14787333,,,,ARROW,SHULKER,,,,,,,
+392,106,2698,0,world_the_end,14795451,,,,ARROW,SHULKER,,,,,,,
+398,110,2635,0,world_the_end,14800174,,,,ARROW,SHULKER,,,,,,,
+-18,160,7485,0,world_the_end,14841816,,,,ARROW,SHULKER,,,,,,,
+21,63,15,0,world_the_end,28724493,,,,ARROW,UNKNOWN,,,,,,,
+263,1,0,0,world_the_end,28759530,,,,TRIDENT,ENDERMAN,,,,,,,

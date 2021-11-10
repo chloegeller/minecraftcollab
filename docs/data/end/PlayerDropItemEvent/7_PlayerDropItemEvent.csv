@@ -1,0 +1,4 @@
+x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
+255,0,0,7,world_the_end,18073355,,,,,,,Netherrack,,,,,
+254,0,0,7,world_the_end,18088876,,,,,,,Ender Pearl,,,,,
+252,0,0,7,world_the_end,25108103,,,,,,,Ender Pearl,,,,,
