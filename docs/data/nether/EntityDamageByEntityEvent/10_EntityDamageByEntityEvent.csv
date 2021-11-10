@@ -1,0 +1,6 @@
+x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
+-320,59,97,10,world_nether,18424458,,MAGMA_CUBE,ENTITY_ATTACK,DIAMOND_SWORD,,,,,,,,
+-315,62,59,10,world_nether,19966441,,MAGMA_CUBE,ENTITY_ATTACK,DIAMOND_PICKAXE,,,,,,,,
+-309,59,63,10,world_nether,19968099,,MAGMA_CUBE,ENTITY_ATTACK,DIAMOND_SWORD,,,,,,,,
+-307,59,63,10,world_nether,19968411,,MAGMA_CUBE,ENTITY_SWEEP_ATTACK,DIAMOND_SWORD,,,,,,,,
+-251,54,40,10,world_nether,25479795,,MAGMA_CUBE,ENTITY_ATTACK,DIAMOND_SWORD,,,,,,,,

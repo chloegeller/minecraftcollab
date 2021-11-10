@@ -1,0 +1,11 @@
+x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
+-546,110,68,6,world_nether,14836390,WALL_TORCH,,,,,,,,,,,
+-477,110,0,6,world_nether,14837660,WALL_TORCH,,,,,,,,,,,
+-349,110,0,6,world_nether,14840194,WALL_TORCH,,,,,,,,,,,
+-220,110,0,6,world_nether,14841214,WALL_TORCH,,,,,,,,,,,
+-82,110,5,6,world_nether,14842160,WALL_TORCH,,,,,,,,,,,
+-641,13,-175,6,world_nether,25271528,NETHERRACK,,,,,,,,,,,
+-641,13,-186,6,world_nether,25275084,NETHERRACK,,,,,,,,,,,
+-641,13,-209,6,world_nether,25276714,NETHERRACK,,,,,,,,,,,
+-526,13,-175,6,world_nether,25286241,NETHERRACK,,,,,,,,,,,
+-464,13,-145,6,world_nether,25292409,NETHERRACK,,,,,,,,,,,

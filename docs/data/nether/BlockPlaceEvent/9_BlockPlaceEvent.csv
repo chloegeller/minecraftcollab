@@ -1,0 +1,13 @@
+x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
+29,30,192,9,world_nether,16536631,COBBLESTONE,,,,,,,,,,,
+37,34,210,9,world_nether,16540583,OAK_PLANKS,,,,,,,,,,,
+-17,44,-43,9,world_nether,25112782,COBBLESTONE,,,,,,,,,,,
+-75,47,114,9,world_nether,25121516,COBBLESTONE,,,,,,,,,,,
+-526,90,11,9,world_nether,26279459,POLISHED_BLACKSTONE_BRICKS,,,,,,,,,,,
+-521,88,11,9,world_nether,26279814,POLISHED_BLACKSTONE_BRICKS,,,,,,,,,,,
+-505,57,25,9,world_nether,26281583,NETHERRACK,,,,,,,,,,,
+-505,57,27,9,world_nether,26281892,NETHERRACK,,,,,,,,,,,
+-508,53,27,9,world_nether,26282220,NETHERRACK,,,,,,,,,,,
+-552,9,14,9,world_nether,26285942,NETHERRACK,,,,,,,,,,,
+-544,110,11,9,world_nether,26290815,NETHERRACK,,,,,,,,,,,
+-119,32,99,9,world_nether,26308530,NETHERRACK,,,,,,,,,,,

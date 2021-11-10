@@ -1,0 +1,13 @@
+x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
+6,43,-98,10,world_nether,17788848,FIRE,,,,,,,,,,,
+211,39,-120,10,world_nether,17793761,GOLD_BLOCK,,,,,,,,,,,
+217,35,-120,10,world_nether,17794778,BLACKSTONE,,,,,,,,,,,
+218,35,-122,10,world_nether,17795363,GOLD_BLOCK,,,,,,,,,,,
+214,39,-124,10,world_nether,17796322,BLACKSTONE,,,,,,,,,,,
+204,41,-120,10,world_nether,17796883,NETHERRACK,,,,,,,,,,,
+243,35,-79,10,world_nether,17799621,NETHERRACK,,,,,,,,,,,
+179,58,-31,10,world_nether,17804533,POLISHED_BLACKSTONE_BRICKS,,,,,,,,,,,
+173,80,23,10,world_nether,17808579,OAK_PLANKS,,,,,,,,,,,
+366,62,-5,10,world_nether,17816018,CRIMSON_NYLIUM,,,,,,,,,,,
+356,62,4,10,world_nether,17818259,CRIMSON_ROOTS,,,,,,,,,,,
+190,55,-153,10,world_nether,17830194,FIRE,,,,,,,,,,,

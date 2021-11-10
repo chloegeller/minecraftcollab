@@ -1,0 +1,5 @@
+x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
+-111,39,258,12,world_nether,23709626,NETHERRACK,,,,,,,,,,,
+-120,39,258,12,world_nether,23711063,NETHERRACK,,,,,,,,,,,
+-175,39,261,12,world_nether,23713290,NETHERRACK,,,,,,,,,,,
+-194,39,81,12,world_nether,23717487,NETHERRACK,,,,,,,,,,,

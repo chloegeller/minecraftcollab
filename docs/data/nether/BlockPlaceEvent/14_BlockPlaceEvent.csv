@@ -1,0 +1,10 @@
+x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
+179,67,-19,14,world_nether,31798799,COBBLESTONE,,,,,,,,,,,
+180,67,-22,14,world_nether,31799134,COBBLESTONE,,,,,,,,,,,
+177,67,-4,14,world_nether,42337602,TORCH,,,,,,,,,,,
+237,80,23,14,world_nether,42342078,COBBLESTONE,,,,,,,,,,,
+585,91,119,14,world_nether,42347990,COBBLESTONE,,,,,,,,,,,
+599,90,126,14,world_nether,42348760,NETHERRACK,,,,,,,,,,,
+869,57,183,14,world_nether,42352998,COBBLESTONE,,,,,,,,,,,
+1041,41,153,14,world_nether,42357772,COBBLESTONE,,,,,,,,,,,
+156,81,14,14,world_nether,42376594,COBBLESTONE,,,,,,,,,,,

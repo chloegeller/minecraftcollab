@@ -1,0 +1,2 @@
+x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
+26,38,246,11,world_nether,23735342,,PIGLIN,ENTITY_ATTACK,IRON_SWORD,,,,,,,,
