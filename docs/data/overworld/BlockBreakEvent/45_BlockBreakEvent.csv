@@ -1,0 +1,6 @@
+x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
+-608,64,-33,45,world,42359804,GRASS,,,,,,,,,,,
+-997,73,-150,45,world,42367166,GRASS,,,,,,,,,,,
+-1175,71,-150,45,world,42369241,REPEATER,,,,,,,,,,,
+-1180,71,-157,45,world,42370440,REDSTONE_WIRE,,,,,,,,,,,
+-1748,63,-1157,45,world,42377426,COAL_ORE,,,,,,,,,,,

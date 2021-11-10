@@ -1,0 +1,4 @@
+x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
+-53,73,1612,23,world,6976689,,HUSK,ENTITY_ATTACK,STONE_AXE,,,,,,,,
+-32,43,2010,23,world,7017850,,ZOMBIE,ENTITY_ATTACK,STONE_SWORD,,,,,,,,
+-6,64,2037,23,world,12452761,,ZOMBIE,ENTITY_ATTACK,AIR,,,,,,,,

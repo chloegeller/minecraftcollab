@@ -1,0 +1,5 @@
+x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
+88,39,57,17,world,3162945,COBBLESTONE,,,,,,,,,,,
+90,56,63,17,world,3167633,ANDESITE,,,,,,,,,,,
+21,83,53,17,world,3173935,CRAFTING_TABLE,,,,,,,,,,,
+-284,67,37,17,world,8046780,DIRT,,,,,,,,,,,

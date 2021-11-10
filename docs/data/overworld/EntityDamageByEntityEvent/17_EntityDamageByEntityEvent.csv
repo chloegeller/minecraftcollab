@@ -1,0 +1,4 @@
+x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
+68,58,-141,17,world,2712952,,COD,ENTITY_ATTACK,STONE_SWORD,,,,,,,,
+-406,41,275,17,world,2773101,,CREEPER,ENTITY_ATTACK,STONE_SWORD,,,,,,,,
+-398,25,291,17,world,2785436,,CREEPER,ENTITY_ATTACK,APPLE,,,,,,,,

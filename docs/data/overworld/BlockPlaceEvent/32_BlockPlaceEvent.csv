@@ -1,0 +1,8 @@
+x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
+-282,58,88,32,world,26597575,TORCH,,,,,,,,,,,
+-260,79,335,32,world,26607906,FURNACE,,,,,,,,,,,
+196,57,904,32,world,27773810,DIRT,,,,,,,,,,,
+462,60,1393,32,world,27785078,DIRT,,,,,,,,,,,
+331,62,1450,32,world,27899646,DIRT,,,,,,,,,,,
+335,62,1449,32,world,27899938,DIRT,,,,,,,,,,,
+335,63,1449,32,world,27900384,DIRT,,,,,,,,,,,

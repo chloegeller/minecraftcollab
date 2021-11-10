@@ -1,0 +1,8 @@
+x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
+1560,68,-167,3,world,28205995,,,,,,,,,,WATER_BUCKET,,
+1570,71,-261,3,world,28264276,,,,,,,,,,WATER_BUCKET,,
+1558,11,-74,3,world,28609715,,,,,,,,,,WATER_BUCKET,,
+1554,73,-247,3,world,30055396,,,,,,,,,,WATER_BUCKET,,
+2391,64,-1432,3,world,33486660,,,,,,,,,,LAVA_BUCKET,,
+1580,11,-75,3,world,42721988,,,,,,,,,,WATER_BUCKET,,
+1556,72,-280,3,world,42870283,,,,,,,,,,WATER_BUCKET,,

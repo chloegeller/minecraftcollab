@@ -1,0 +1,10 @@
+x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
+-225,65,-126,30,world,18291419,KELP,,,,,,,,,,,
+-264,79,-86,30,world,18323956,DIRT,,,,,,,,,,,
+-239,12,-110,30,world,18327186,WALL_TORCH,,,,,,,,,,,
+-225,5,-141,30,world,18341311,WALL_TORCH,,,,,,,,,,,
+-220,10,-177,30,world,18343797,COBBLESTONE,,,,,,,,,,,
+-212,11,-151,30,world,18348125,WALL_TORCH,,,,,,,,,,,
+-177,11,-159,30,world,18357537,WALL_TORCH,,,,,,,,,,,
+-220,10,-178,30,world,18367314,DIORITE,,,,,,,,,,,
+-251,12,-110,30,world,18374419,WALL_TORCH,,,,,,,,,,,

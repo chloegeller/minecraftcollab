@@ -1,0 +1,12 @@
+x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
+-558,63,-68,37,world,28311249,SAND,,,,,,,,,,,
+-548,63,-62,37,world,28311909,SAND,,,,,,,,,,,
+-552,63,-60,37,world,28314732,SAND,,,,,,,,,,,
+-551,63,-60,37,world,28315132,SAND,,,,,,,,,,,
+-560,63,-69,37,world,28317688,SAND,,,,,,,,,,,
+-556,63,-67,37,world,28319348,OAK_PLANKS,,,,,,,,,,,
+-553,63,-62,37,world,28320046,OAK_PLANKS,,,,,,,,,,,
+-551,64,-67,37,world,28326785,OAK_LOG,,,,,,,,,,,
+-557,64,-69,37,world,28345001,OAK_LOG,,,,,,,,,,,
+-558,63,-60,37,world,28351789,SAND,,,,,,,,,,,
+-556,67,-62,37,world,28354216,OAK_PLANKS,,,,,,,,,,,

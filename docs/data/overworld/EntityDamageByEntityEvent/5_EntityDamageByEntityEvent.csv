@@ -1,0 +1,7 @@
+x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
+-289,65,62,5,world,763132,,ZOMBIE,ENTITY_ATTACK,STONE_SWORD,,,,,,,,
+-361,81,126,5,world,771714,,PLAYER,ENTITY_ATTACK,STONE_SWORD,,,,,,,,
+-500,70,249,5,world,778300,,SHEEP,ENTITY_ATTACK,STONE_SWORD,,,,,,,,
+45,62,167,5,world,783932,,PLAYER,ENTITY_ATTACK,AIR,,,,,,,,
+14,64,12,5,world,5126514,,VILLAGER,ENTITY_ATTACK,DIAMOND_SWORD,,,,,,,,
+-224,63,3,5,world,5157973,,ZOMBIE,ENTITY_ATTACK,DIAMOND_SWORD,,,,,,,,

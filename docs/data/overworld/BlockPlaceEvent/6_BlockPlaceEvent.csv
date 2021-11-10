@@ -1,0 +1,12 @@
+x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
+103,59,-112,6,world,811128,SAND,,,,,,,,,,,
+93,49,-114,6,world,816376,COBBLESTONE_STAIRS,,,,,,,,,,,
+92,49,-117,6,world,821849,SAND,,,,,,,,,,,
+81,38,-114,6,world,826418,WALL_TORCH,,,,,,,,,,,
+75,38,-115,6,world,829138,DIRT,,,,,,,,,,,
+83,40,-114,6,world,832722,COBBLESTONE_STAIRS,,,,,,,,,,,
+76,38,-116,6,world,833592,DIRT,,,,,,,,,,,
+80,38,-118,6,world,841859,COBBLESTONE,,,,,,,,,,,
+77,38,-118,6,world,841580,FARMLAND,,,,,,,,,,,
+77,38,-115,6,world,842818,FARMLAND,,,,,,,,,,,
+77,38,-121,6,world,844428,DIRT,,,,,,,,,,,
