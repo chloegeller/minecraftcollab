@@ -11,6 +11,7 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.js"></script>
     <script src='https://cdn.plot.ly/plotly-2.4.2.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js'></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
     <link rel="stylesheet" href="../src/css/custom.css">
   </head>
   <body>
@@ -37,6 +38,11 @@
                 <li class="nav-item">
                   <a class="nav-link" href="participants.html">Participants</a>
                 </li>
+                <li class="nav-item">
+                  <a href="https://github.com/minecraftcollaboration/minecraftcollab" style="font-size: 30px; color: #4f4f7f; padding-left:40px;">
+                    <i class="fab fa-github"></i> 
+                  </a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -58,23 +64,23 @@
           <option value="_Death_2DPoints">Deaths</option>
           <option value="_BlockBreak_2DPoints">Block Break</option>
           <option value="_BlockPlace_2DPoints">Block Place</option>
-          <option value="_Join_2DPoints">Block Place</option>
-          <option value="_Quit_2DPoints">Block Place</option>
-          <option value="_ChangeWorld_2DPoints">Block Place</option>
-          <option value="_Damage_2DPoints">Block Place</option>
-          <option value="_Interact_2DPoints">Block Place</option>
-          <option value="_Respawn_2DPoints">Block Place</option>
-          <option value="_ProjectileHit_2DPoints">Block Place</option>
-          <option value="_DropItem_2DPoints">Block Place</option>
-          <option value="_BedEnter_2DPoints">Block Place</option>
-          <option value="_BedLeave_2DPoints">Block Place</option>
-          <option value="_Leash_2DPoints">Block Place</option>
-          <option value="_Unleash_2DPoints">Block Place</option>
-          <option value="_Shear_2DPoints">Block Place</option>
-          <option value="_BucketFill_2DPoints">Block Place</option>
-          <option value="_BucketEmpty_2DPoints">Block Place</option>
-          <option value="_Enchant_2DPoints">Block Place</option>
-          <option value="_EggThrow_2DPoints">Block Place</option>
+          <!-- <option value="_Join_2DPoints">Player Join</option>
+          <option value="_Quit_2DPoints">Player Quit</option> -->
+          <!-- <option value="_ChangeWorld_2DPoints">Changed World</option>
+          <option value="_Damage_2DPoints">Damage</option>
+          <option value="_Interact_2DPoints">Interact</option>
+          <option value="_Respawn_2DPoints">Respawn</option>
+          <option value="_ProjectileHit_2DPoints">Projectile Hit</option>
+          <option value="_DropItem_2DPoints">Drop Item</option>
+          <option value="_BedEnter_2DPoints">Bed Enter</option>
+          <option value="_BedLeave_2DPoints">Bed Leave</option>
+          <option value="_Leash_2DPoints">Leash</option>
+          <option value="_Unleash_2DPoints">Unleash</option>
+          <option value="_Shear_2DPoints">Shear</option>
+          <option value="_BucketFill_2DPoints">Bucket Fill</option>
+          <option value="_BucketEmpty_2DPoints">Bucket Empty</option>
+          <option value="_Enchant_2DPoints">Enchant Item</option>
+          <option value="_EggThrow_2DPoints">Egg Throw</option> -->
         </select>
       </div>
       <div class="col-sm-5"></div>
@@ -86,9 +92,9 @@
     <div class="map" id='Overworld_Death_2DPoints' style="display:none;" ></div>
     <div class="map" id='Overworld_BlockBreak_2DPoints' style="display:none;"></div>
     <div class="map" id='Overworld_BlockPlace_2DPoints'style="display:none;"></div>
-    <div class="map" id='Overworld_Join_2DPoints' style="display:none;"></div>
-    <div class="map" id='Overworld_Quit_2DPoints' style="display:none;"></div>
-    <div class="map" id='Overworld_ChangeWorld_2DPoints' style="display:none;"></div>
+    <!-- <div class="map" id='Overworld_Join_2DPoints' style="display:none;"></div>
+    <div class="map" id='Overworld_Quit_2DPoints' style="display:none;"></div> -->
+    <!-- <div class="map" id='Overworld_ChangeWorld_2DPoints' style="display:none;"></div>
     <div class="map" id='Overworld_Damage_2DPoints' style="display:none;"></div>
     <div class="map" id='Overworld_Interact_2DPoints' style="display:none;"></div>
     <div class="map" id='Overworld_Respawn_2DPoints' style="display:none;"></div>
@@ -102,16 +108,16 @@
     <div class="map" id='Overworld_BucketFill_2DPoints' style="display:none;"></div>
     <div class="map" id='Overworld_BucketEmpty_2DPoints' style="display:none;"></div>
     <div class="map" id='Overworld_Enchant_2DPoints' style="display:none;"></div>
-    <div class="map" id='Overworld_EggThrow_2DPoints' style="display:none;"></div>
+    <div class="map" id='Overworld_EggThrow_2DPoints' style="display:none;"></div> -->
   
     <h3 id="Nether_title" class="worldTitle" value="Nether" style="display:none;">The Nether</h3>
     <div class="map" id='Nether_Move_2DPoints' style="display:none;"></div>
     <div class="map" id='Nether_Death_2DPoints' style="display:none;"></div>
     <div class="map" id='Nether_BlockBreak_2DPoints' style="display:none;"></div>
     <div class="map" id='Nether_BlockPlace_2DPoints' style="display:none;"></div>
-    <div class="map" id='Nether_Join_2DPoints' style="display:none;"></div>
-    <div class="map" id='Nether_Quit_2DPoints' style="display:none;"></div>
-    <div class="map" id='Nether_ChangeWorld_2DPoints' style="display:none;"></div>
+    <!-- <div class="map" id='Nether_Join_2DPoints' style="display:none;"></div>
+    <div class="map" id='Nether_Quit_2DPoints' style="display:none;"></div> -->
+    <!-- <div class="map" id='Nether_ChangeWorld_2DPoints' style="display:none;"></div>
     <div class="map" id='Nether_Damage_2DPoints' style="display:none;"></div>
     <div class="map" id='Nether_Interact_2DPoints' style="display:none;"></div>
     <div class="map" id='Nether_Respawn_2DPoints' style="display:none;"></div>
@@ -125,16 +131,16 @@
     <div class="map" id='Nether_BucketFill_2DPoints' style="display:none;"></div>
     <div class="map" id='Nether_BucketEmpty_2DPoints' style="display:none;"></div>
     <div class="map" id='Nether_Enchant_2DPoints' style="display:none;"></div>
-    <div class="map" id='Nether_EggThrow_2DPoints' style="display:none;"></div>
+    <div class="map" id='Nether_EggThrow_2DPoints' style="display:none;"></div> -->
   
     <h3 id="End_title" class="worldTitle" value="End" style="display:none;">The End</h3>
     <div class="map" id='End_Move_2DPoints' style="display:none;"></div>
     <div class="map" id='End_Death_2DPoints' style="display:none;"></div>
     <div class="map" id='End_BlockBreak_2DPoints' style="display:none;"></div>
     <div class="map" id='End_BlockPlace_2DPoints' style="display:none;"></div>
-    <div class="map" id='End_Join_2DPoints' style="display:none;"></div>
-    <div class="map" id='End_Quit_2DPoints' style="display:none;"></div>
-    <div class="map" id='End_ChangeWorld_2DPoints' style="display:none;"></div>
+    <!-- <div class="map" id='End_Join_2DPoints' style="display:none;"></div>
+    <div class="map" id='End_Quit_2DPoints' style="display:none;"></div> -->
+    <!-- <div class="map" id='End_ChangeWorld_2DPoints' style="display:none;"></div>
     <div class="map" id='End_Damage_2DPoints' style="display:none;"></div>
     <div class="map" id='End_Interact_2DPoints' style="display:none;"></div>
     <div class="map" id='End_Respawn_2DPoints' style="display:none;"></div>
@@ -148,7 +154,7 @@
     <div class="map" id='End_BucketFill_2DPoints' style="display:none;"></div>
     <div class="map" id='End_BucketEmpty_2DPoints' style="display:none;"></div>
     <div class="map" id='End_Enchant_2DPoints' style="display:none;"></div>
-    <div class="map" id='End_EggThrow_2DPoints' style="display:none;"></div>
+    <div class="map" id='End_EggThrow_2DPoints' style="display:none;"></div> -->
     <script src="../src/js/2D.js"></script>
   </body>
 </html>

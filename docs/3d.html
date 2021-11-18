@@ -14,6 +14,7 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js'></script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.js"></script>
     <!-- <script src="jquery-csv.js"></script> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
     <link rel="stylesheet" href="../src/css/custom.css">
   </head>
   <body>
@@ -40,6 +41,11 @@
                 <li class="nav-item">
                   <a class="nav-link" href="participants.html">Participants</a>
                 </li>
+                <li class="nav-item">
+                  <a href="https://github.com/minecraftcollaboration/minecraftcollab" style="font-size: 30px; color: #4f4f7f; padding-left:40px;">
+                    <i class="fab fa-github"></i> 
+                  </a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -57,27 +63,27 @@
       </div>
       <div class="col-sm-1 event_select">
         <select id="EventSelect" name="form_select" onchange="onChange(this)">
-          <option value="_Move_3DPoints">Movement</option>
-          <option value="_Death_3DPoints">Deaths</option>
-          <option value="_BlockBreak_3DPoints">Block Break</option>
-          <option value="_BlockPlace_3DPoints">Block Place</option>
-          <option value="_Join_3DPoints">Block Place</option>
-          <option value="_Quit_3DPoints">Block Place</option>
-          <option value="_ChangeWorld_3DPoints">Block Place</option>
-          <option value="_Damage_3DPoints">Block Place</option>
-          <option value="_Interact_3DPoints">Block Place</option>
-          <option value="_Respawn_3DPoints">Block Place</option>
-          <option value="_ProjectileHit_3DPoints">Block Place</option>
-          <option value="_DropItem_3DPoints">Block Place</option>
-          <option value="_BedEnter_3DPoints">Block Place</option>
-          <option value="_BedLeave_3DPoints">Block Place</option>
-          <option value="_Leash_3DPoints">Block Place</option>
-          <option value="_Unleash_3DPoints">Block Place</option>
-          <option value="_Shear_3DPoints">Block Place</option>
-          <option value="_BucketFill_3DPoints">Block Place</option>
-          <option value="_BucketEmpty_3DPoints">Block Place</option>
-          <option value="_Enchant_3DPoints">Block Place</option>
-          <option value="_EggThrow_3DPoints">Block Place</option>
+          <option value="_PlayerMoveEvent_3DPoints">Movement</option>
+          <!-- <option value="_PlayerDeathEvent_3DPoints">Deaths</option> -->
+          <!-- <option value="_BlockBreakEvent_3DPoints">Block Break</option>
+          <option value="_BlockPlaceEvent_3DPoints">Block Place</option> -->
+          <!-- <option value="_Join_3DPoints">Player Join</option>
+          <option value="_Quit_3DPoints">Player Quit</option> -->
+          <!-- <option value="_ChangeWorld_3DPoints">Changed World</option>
+          <option value="_Damage_3DPoints">Damage</option>
+          <option value="_Interact_3DPoints">Interact</option>
+          <option value="_Respawn_3DPoints">Respawn</option>
+          <option value="_ProjectileHit_3DPoints">Projectile Hit</option>
+          <option value="_DropItem_3DPoints">Drop Item</option>
+          <option value="_BedEnter_3DPoints">Bed Enter</option>
+          <option value="_BedLeave_3DPoints">Bed Leave</option>
+          <option value="_Leash_3DPoints">Leash</option>
+          <option value="_Unleash_3DPoints">Unleash</option>
+          <option value="_Shear_3DPoints">Shear</option>
+          <option value="_BucketFill_3DPoints">Bucket Fill</option>
+          <option value="_BucketEmpty_3DPoints">Bucket Empty</option>
+          <option value="_Enchant_3DPoints">Enchant Item</option>
+          <option value="_EggThrow_3DPoints">Egg Throw</option> -->
         </select>
       </div>
       <div class="col-sm-5"></div>
@@ -87,13 +93,13 @@
     
       <h3 id="Overworld_title" class="worldTitle" value="Overworld" style="display:block;">The Overworld</h3>
       <div class="container">
-        <div class="map" id='Overworld_Move_3DPoints' style="display:block;"></div>
-        <div class="map" id='Overworld_Death_3DPoints' style="display:none;"></div>
-        <div class="map" id='Overworld_BlockBreak_3DPoints' style="display:none;"></div>
-        <div class="map" id='Overworld_BlockPlace_3DPoints' style="display:none;"></div>
-        <div class="map" id='Overworld_Join_3DPoints' style="display:none;"></div>
-        <div class="map" id='Overworld_Quit_3DPoints' style="display:none;"></div>
-        <div class="map" id='Overworld_ChangeWorld_3DPoints' style="display:none;"></div>
+        <div class="map" id='Overworld_PlayerMoveEvent_3DPoints' style="display:block;"></div>
+        <!-- <div class="map" id='Overworld_PlayerDeathEvent_3DPoints' style="display:none;"></div> -->
+        <!-- <div class="map" id='Overworld_BlockBreakEvent_3DPoints' style="display:none;"></div>
+        <div class="map" id='Overworld_BlockPlaceEvent_3DPoints' style="display:none;"></div> -->
+        <!-- <div class="map" id='Overworld_Join_3DPoints' style="display:none;"></div>
+        <div class="map" id='Overworld_Quit_3DPoints' style="display:none;"></div> -->
+        <!-- <div class="map" id='Overworld_ChangeWorld_3DPoints' style="display:none;"></div>
         <div class="map" id='Overworld_Damage_3DPoints' style="display:none;"></div>
         <div class="map" id='Overworld_Interact_3DPoints' style="display:none;"></div>
         <div class="map" id='Overworld_Respawn_3DPoints' style="display:none;"></div>
@@ -107,17 +113,18 @@
         <div class="map" id='Overworld_BucketFill_3DPoints' style="display:none;"></div>
         <div class="map" id='Overworld_BucketEmpty_3DPoints' style="display:none;"></div>
         <div class="map" id='Overworld_Enchant_3DPoints' style="display:none;"></div>
-        <div class="map" id='Overworld_EggThrow_3DPoints' style="display:none;"></div>
+        <div class="map" id='Overworld_EggThrow_3DPoints' style="display:none;"></div> -->
       </div>
       <!-- <div id='my3DHeatMap'></div> -->
       <h3 id="Nether_title" class="worldTitle" value="Nether" style="display:none;">The Nether</h3>
-      <div class="map" id='Nether_Move_3DPoints' style="display:none;"></div>
-      <div class="map" id='Nether_Death_3DPoints' style="display:none;"></div>
-      <div class="map" id='Nether_BlockBreak_3DPoints' style="display:none;"></div>
-      <div class="map" id='Nether_BlockPlace_3DPoints' style="display:none;"></div>
-      <div class="map" id='Nether_Join_3DPoints' style="display:none;"></div>
-      <div class="map" id='Nether_Quit_3DPoints' style="display:none;"></div>
-      <div class="map" id='Nether_ChangeWorld_3DPoints' style="display:none;"></div>
+      <div class="container">
+      <!-- <div class="map" id='Nether_PlayerMoveEvent_3DPoints' style="display:none;"></div>
+      <div class="map" id='Nether_PlayerDeathEvent_3DPoints' style="display:none;"></div> -->
+      <!-- <div class="map" id='Nether_BlockBreakEvent_3DPoints' style="display:none;"></div>
+      <div class="map" id='Nether_BlockPlaceEvent_3DPoints' style="display:none;"></div> -->
+      <!-- <div class="map" id='Nether_Join_3DPoints' style="display:none;"></div>
+      <div class="map" id='Nether_Quit_3DPoints' style="display:none;"></div> -->
+      <!-- <div class="map" id='Nether_ChangeWorld_3DPoints' style="display:none;"></div>
       <div class="map" id='Nether_Damage_3DPoints' style="display:none;"></div>
       <div class="map" id='Nether_Interact_3DPoints' style="display:none;"></div>
       <div class="map" id='Nether_Respawn_3DPoints' style="display:none;"></div>
@@ -131,16 +138,18 @@
       <div class="map" id='Nether_BucketFill_3DPoints' style="display:none;"></div>
       <div class="map" id='Nether_BucketEmpty_3DPoints' style="display:none;"></div>
       <div class="map" id='Nether_Enchant_3DPoints' style="display:none;"></div>
-      <div class="map" id='Nether_EggThrow_3DPoints' style="display:none;"></div>
+      <div class="map" id='Nether_EggThrow_3DPoints' style="display:none;"></div> -->
+      </div>
   
       <h3 id="End_title" class="worldTitle" value="End" style="display:none;">The End</h3>
-      <div class="map" id='End_Move_3DPoints' style="display:none;"></div>
-      <div class="map" id='End_Death_3DPoints' style="display:none;"></div>
-      <div class="map" id='End_BlockBreak_3DPoints' style="display:none;"></div>
-      <div class="map" id='End_BlockPlace_3DPoints' style="display:none;"></div>
-      <div class="map" id='End_Join_3DPoints' style="display:none;"></div>
-      <div class="map" id='End_Quit_3DPoints' style="display:none;"></div>
-      <div class="map" id='End_ChangeWorld_3DPoints' style="display:none;"></div>
+      <div class="container">
+      <!-- <div class="map" id='End_PlayerMoveEvent_3DPoints' style="display:none;"></div>
+      <div class="map" id='End_PlayerDeathEvent_3DPoints' style="display:none;"></div> -->
+      <!-- <div class="map" id='End_BlockBreakEvent_3DPoints' style="display:none;"></div>
+      <div class="map" id='End_BlockPlaceEvent_3DPoints' style="display:none;"></div> -->
+      <!-- <div class="map" id='End_Join_3DPoints' style="display:none;"></div>
+      <div class="map" id='End_Quit_3DPoints' style="display:none;"></div> -->
+      <!-- <div class="map" id='End_ChangeWorld_3DPoints' style="display:none;"></div>
       <div class="map" id='End_Damage_3DPoints' style="display:none;"></div>
       <div class="map" id='End_Interact_3DPoints' style="display:none;"></div>
       <div class="map" id='End_Respawn_3DPoints' style="display:none;"></div>
@@ -154,7 +163,8 @@
       <div class="map" id='End_BucketFill_3DPoints' style="display:none;"></div>
       <div class="map" id='End_BucketEmpty_3DPoints' style="display:none;"></div>
       <div class="map" id='End_Enchant_3DPoints' style="display:none;"></div>
-      <div class="map" id='End_EggThrow_3DPoints' style="display:none;"></div>
+      <div class="map" id='End_EggThrow_3DPoints' style="display:none;"></div> -->
+      </div>
       <script src="../src/js/3D.js"></script>
   </body>
 </html>
