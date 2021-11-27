@@ -1,3 +1,7 @@
+html{
+    overflow-x: hidden;
+}
+
 .nav-pills .nav-link.active {
     color: #fff;
     background-color: #4f4f7f;
@@ -40,3 +44,41 @@ input[type="button"] {
     font-size: x-large;
     text-align: left;
 }
+
+#container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#chart{
+    position: absolute;
+    top: 0;
+}
+
+#players{
+    width: 12vw;
+    position: fixed;
+    display: flex;
+    overflow-y: scroll;
+    min-height: 50vh;
+    max-height: 92vh;
+}
+
+#checkbox{
+    margin-left: 5;
+}
+
+#days-container{
+    margin: 0 auto;
+    width: 20vw;
+}
+
+#playerList{
+    
+    list-style-type: none;
+    margin-bottom: 50px;
+}
+
+
