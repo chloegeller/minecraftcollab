@@ -343,8 +343,8 @@
 // createHeatPlot('./data/end/', '_move', 'PlayerMoveEvent', 'End_Move_2DHeat');
 
 $(function(){
-    $("#Event_2DPoints").load("./plots/2d/overworld/PlayerMoveEvent.html");
-  });
+    $("#Event_2DPoints").load("./plots/2d/overworld/PlayerDeathEvent.html");
+});
 
 function onChange(selection){
 
@@ -358,6 +358,11 @@ function onChange(selection){
     var maps = document.getElementsByClassName("map");
     var titles = document.getElementsByClassName("worldTitle");
 
+    for(var i = 0; i < titles.length; i++){
+      titles[i].style.display = "none";
+    }
+
+    document.getElementById(titleID).style.display = "block";
 
 
     $("#Event_2DPoints").load("plots/2d/"+ worldSelector.value + "/" + eventSelector.value + ".html");

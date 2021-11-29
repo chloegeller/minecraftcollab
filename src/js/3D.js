@@ -223,7 +223,7 @@ for (i = 0; i < 48; i++) {
 $(function(){
     $("#Event_3DPoints").load("./plots/3d/overworld/PlayerMoveEvent.html");
     // console.log()
-  });
+});
 
 function onChange(selection){
 
@@ -237,17 +237,17 @@ function onChange(selection){
     var maps = document.getElementsByClassName("map");
     var titles = document.getElementsByClassName("worldTitle");
 
-    // for(var i = 0; i < titles.length; i++){
-    //     titles[i].style.display = "none";
-    // }
+    for(var i = 0; i < titles.length; i++){
+        titles[i].style.display = "none";
+    }
 
     // for(var i = 0; i < maps.length; i++){
     //     maps[i].style.display = "none";
     // }
 
-    // document.getElementById(titleID).style.display = "block";
+    document.getElementById(titleID).style.display = "block";
     // document.getElementById(plotID).style.display = "block";
-
+    console.log(titleID)
 
     $("#Event_3DPoints").load("plots/3d/"+ worldSelector.value + "/" + eventSelector.value + ".html");
 }
