@@ -63,7 +63,7 @@
     <div class="row">
       <div class="col-sm-5"></div>
       <div class="col-sm-1 world_select">
-        <select id="WorldSelect" name="form_select" onchange="createImage()">
+        <select id="WorldSelect" name="form_select" onchange="onChange(this)">
           <option value="overworld">Overworld</option>
           <option value="nether">Nether</option>
           <option value="end">End</option>
@@ -71,7 +71,7 @@
       </div>
 
       <div class="col-sm-1 event_select">
-        <select id="EventSelect" name="form_select" onchange="createImage()">
+        <select id="EventSelect" name="form_select" onchange="onChange()">
           <option value="PlayerMoveEvent">Movement</option>
           <option value="PlayerDeathEvent">Deaths</option>
           <option value="BlockBreakEvent">Block Break</option>
@@ -98,12 +98,14 @@
       <div class="col-sm-5"></div>
     </div>
 
-    <div id="days-container">
-      <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold; text-align:center;">
-      <div id="slider-range"></div> 
-    </div>
-    <div class="container" id="container"></div>
-    <script src="../src/js/imgs.js"></script>
+    <h3 id="Overworld_title" class="worldTitle" value="Overworld" style="display:block;">The Overworld</h3>
+      <div class="container">
+        <div class="map" id='Event_2DPoints' style="display:block;"></div>
+      </div>
+      <!-- <div id='my3DHeatMap'></div> -->
+      <h3 id="Nether_title" class="worldTitle" value="Nether" style="display:none;">The Nether</h3>
+      <h3 id="End_title" class="worldTitle" value="End" style="display:none;">The End</h3>
+      <script src="../src/js/2D.js"></script>
     <br>
 </body>
 </html>
