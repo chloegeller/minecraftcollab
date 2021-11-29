@@ -56,37 +56,37 @@ function createPlot(folder_path, event_name, div_name, random_color) {
 
 // set the same random color per player, instead of per plot
 var random_color = [];
-for (i = 0; i < 40; i++) {
+for (i = 0; i < 48; i++) {
     r = Math.floor(Math.random() * 256).toString()
     g = Math.floor(Math.random() * 256).toString()
     b = Math.floor(Math.random() * 256).toString()
     random_color[i] = 'rgb(' + r + ',' + g + ',' + b +')';
 }
 
-createPlot('./data/overworld/', 'PlayerMoveEvent', 'Overworld_PlayerMoveEvent_3DPoints', random_color);
+// createPlot('./data/overworld/', 'PlayerMoveEvent', 'Overworld_Move_3DPoints', random_color);
 
-function onChange(selection){
-    var worldSelector = document.getElementById("WorldSelect");
-    var eventSelector = document.getElementById("EventSelect");
+// function onChange(selection){
+//     var worldSelector = document.getElementById("WorldSelect");
+//     var eventSelector = document.getElementById("EventSelect");
 
-    var plotID = worldSelector.value + eventSelector.value;
-    var titleID = worldSelector.value + "_title";
-    // console.log(plotID)
+//     var plotID = worldSelector.value + eventSelector.value;
+//     var titleID = worldSelector.value + "_title";
+//     // console.log(plotID)
 
-    var maps = document.getElementsByClassName("map");
-    var titles = document.getElementsByClassName("worldTitle");
+//     var maps = document.getElementsByClassName("map");
+//     var titles = document.getElementsByClassName("worldTitle");
 
-    for(var i = 0; i < titles.length; i++){
-        titles[i].style.display = "none";
-    }
+//     for(var i = 0; i < titles.length; i++){
+//         titles[i].style.display = "none";
+//     }
 
-    for(var i = 0; i < maps.length; i++){
-        maps[i].style.display = "none";
-    }
+//     for(var i = 0; i < maps.length; i++){
+//         maps[i].style.display = "none";
+//     }
 
-    document.getElementById(titleID).style.display = "block";
-    document.getElementById(plotID).style.display = "block";
-}
+//     document.getElementById(titleID).style.display = "block";
+//     document.getElementById(plotID).style.display = "block";
+// }
 
 // createPlot('./data/overworld/', 'PlayerDeathEvent', 'Overworld_Death_3DPoints', random_color);
 // createPlot('./data/overworld/', 'BlockBreakEvent', 'Overworld_BlockBreak_3DPoints', random_color);
@@ -220,109 +220,89 @@ function onChange(selection){
 
 // createHeatPlot('./data/overworld/move/', '_move', 'PlayerMoveEvent', 'Overworld_Move_3DHeat');
 
-// $(function(){
-//     $("#Overworld_PlayerMoveEvent_3DPoints").load("./plots/3d/overworld/PlayerMoveEvent.htm");
-//     // console.log()
-//   });
+$(function(){
+    $("#Event_3DPoints").load("./plots/3d/overworld/PlayerMoveEvent.html");
+    // console.log()
+  });
 
-// function onChange(selection){
-//     var worldSelector = document.getElementById("WorldSelect");
-//     var eventSelector = document.getElementById("EventSelect");
+function onChange(selection){
 
-//     var plotID = worldSelector.value + eventSelector.value;
-//     var titleID = worldSelector.value + "_title";
-//     console.log(plotID)
+    var worldSelector = document.getElementById("WorldSelect");
+    var eventSelector = document.getElementById("EventSelect");
 
-//     var maps = document.getElementsByClassName("map");
-//     var titles = document.getElementsByClassName("worldTitle");
+    var plotID = worldSelector.value + eventSelector.value;
+    var titleID = worldSelector.value + "_title";
+    console.log(plotID)
 
-//     for(var i = 0; i < titles.length; i++){
-//         titles[i].style.display = "none";
-//     }
+    var maps = document.getElementsByClassName("map");
+    var titles = document.getElementsByClassName("worldTitle");
 
-//     for(var i = 0; i < maps.length; i++){
-//         maps[i].style.display = "none";
-//     }
+    // for(var i = 0; i < titles.length; i++){
+    //     titles[i].style.display = "none";
+    // }
 
-//     document.getElementById(titleID).style.display = "block";
-//     document.getElementById(plotID).style.display = "block";
-// }
+    // for(var i = 0; i < maps.length; i++){
+    //     maps[i].style.display = "none";
+    // }
+
+    // document.getElementById(titleID).style.display = "block";
+    // document.getElementById(plotID).style.display = "block";
 
 
-// $.each([
-//     // "ProjectileHitEvent",
-//     // "PlayerQuitEvent",
-//     // "PlayerBedLeaveEvent",
-//     // "PlayerBedEnterEvent",
-//     // "PlayerBucketEmptyEvent",
-//     "PlayerDeathEvent",
-//     // "PlayerMoveEvent",
-//     // "PlayerBucketFillEvent",
-//     // "PlayerDropItemEvent",
-//     // "PlayerInteractEvent",
-//     // "PlayerLeashEntityEvent",
-//     // "PlayerChangedWorldEvent",
-//     // "PlayerRespawnEvent",
-//     // "EntityDamageByEntityEvent",
-//     // "PlayerEggThrowEvent",
-//     // "PlayerUnleashEntityEvent",
-//     "BlockPlaceEvent",
-//     "BlockBreakEvent",
-//     // "PlayerJoinEvent",
-//     // "PlayerShearEntityEvent",
-//     // "EnchantItemEvent"
-// ], function(i,event){
-//     $("#Overworld_" + event + "_3DPoints").load("plots/3d/overworld/" + event + ".html");
-// });
+    $("#Event_3DPoints").load("plots/3d/"+ worldSelector.value + "/" + eventSelector.value + ".html");
+}
+
+
+
 
 // $.each([
-//     // "ProjectileHitEvent",
-//     // "PlayerQuitEvent",
-//     // "PlayerBedLeaveEvent",
-//     // "PlayerBedEnterEvent",
-//     // "PlayerBucketEmptyEvent",
+//     "ProjectileHitEvent",
+//     "PlayerQuitEvent",
+//     "PlayerBedLeaveEvent",
+//     "PlayerBedEnterEvent",
+//     "PlayerBucketEmptyEvent",
 //     "PlayerDeathEvent",
 //     "PlayerMoveEvent",
-//     // "PlayerBucketFillEvent",
-//     // "PlayerDropItemEvent",
-//     // "PlayerInteractEvent",
-//     // "PlayerLeashEntityEvent",
-//     // "PlayerChangedWorldEvent",
-//     // "PlayerRespawnEvent",
-//     // "EntityDamageByEntityEvent",
-//     // "PlayerEggThrowEvent",
-//     // "PlayerUnleashEntityEvent",
+//     "PlayerBucketFillEvent",
+//     "PlayerDropItemEvent",
+//     "PlayerInteractEvent",
+//     "PlayerLeashEntityEvent",
+//     "PlayerChangedWorldEvent",
+//     "PlayerRespawnEvent",
+//     "EntityDamageByEntityEvent",
+//     "PlayerEggThrowEvent",
+//     "PlayerUnleashEntityEvent",
 //     "BlockPlaceEvent",
 //     "BlockBreakEvent",
-//     // "PlayerJoinEvent",
-//     // "PlayerShearEntityEvent",
-//     // "EnchantItemEvent"
+//     "PlayerJoinEvent",
+//     "PlayerShearEntityEvent",
+//     "EnchantItemEvent"
 // ], function(i,event){
 //     $("#Nether_" + event + "_3DPoints").load("plots/3d/nether/" + event + ".html");
 // });
 
 // $.each([
-//     // "ProjectileHitEvent",
-//     // "PlayerQuitEvent",
-//     // "PlayerBedLeaveEvent",
-//     // "PlayerBedEnterEvent",
-//     // "PlayerBucketEmptyEvent",
+//     "ProjectileHitEvent",
+//     "PlayerQuitEvent",
+//     "PlayerBedLeaveEvent",
+//     "PlayerBedEnterEvent",
+//     "PlayerBucketEmptyEvent",
 //     "PlayerDeathEvent",
 //     "PlayerMoveEvent",
-//     // "PlayerBucketFillEvent",
-//     // "PlayerDropItemEvent",
-//     // "PlayerInteractEvent",
-//     // "PlayerLeashEntityEvent",
-//     // "PlayerChangedWorldEvent",
-//     // "PlayerRespawnEvent",
-//     // "EntityDamageByEntityEvent",
-//     // "PlayerEggThrowEvent",
-//     // "PlayerUnleashEntityEvent",
+//     "PlayerBucketFillEvent",
+//     "PlayerDropItemEvent",
+//     "PlayerInteractEvent",
+//     "PlayerLeashEntityEvent",
+//     "PlayerChangedWorldEvent",
+//     "PlayerRespawnEvent",
+//     "EntityDamageByEntityEvent",
+//     "PlayerEggThrowEvent",
+//     "PlayerUnleashEntityEvent",
 //     "BlockPlaceEvent",
 //     "BlockBreakEvent",
-//     // "PlayerJoinEvent",
-//     // "PlayerShearEntityEvent",
-//     // "EnchantItemEvent"
+//     "PlayerJoinEvent",
+//     "PlayerShearEntityEvent",
+//     "EnchantItemEvent"
 // ], function(i,event){
 //     $("#End_" + event + "_3DPoints").load("plots/3d/end/" + event + ".html");
 // });

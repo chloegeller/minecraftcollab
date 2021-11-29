@@ -56,34 +56,34 @@
       <div class="col-sm-5"></div>
       <div class="col-sm-1 world_select">
         <select id="WorldSelect" name="form_select" onchange="onChange(this)">
-          <option value="Overworld">Overworld</option>
-          <option value="Nether">Nether</option>
-          <option value="End">End</option>
+          <option value="overworld">Overworld</option>
+          <option value="nether">Nether</option>
+          <option value="end">End</option>
         </select>
       </div>
       <div class="col-sm-1 event_select">
-        <select id="EventSelect" name="form_select" onchange="onChange(this)">
-          <option value="_PlayerMoveEvent_3DPoints">Movement</option>
-          <!-- <option value="_PlayerDeathEvent_3DPoints">Deaths</option> -->
-          <!-- <option value="_BlockBreakEvent_3DPoints">Block Break</option>
-          <option value="_BlockPlaceEvent_3DPoints">Block Place</option> -->
-          <!-- <option value="_Join_3DPoints">Player Join</option>
-          <option value="_Quit_3DPoints">Player Quit</option> -->
-          <!-- <option value="_ChangeWorld_3DPoints">Changed World</option>
-          <option value="_Damage_3DPoints">Damage</option>
-          <option value="_Interact_3DPoints">Interact</option>
-          <option value="_Respawn_3DPoints">Respawn</option>
-          <option value="_ProjectileHit_3DPoints">Projectile Hit</option>
-          <option value="_DropItem_3DPoints">Drop Item</option>
-          <option value="_BedEnter_3DPoints">Bed Enter</option>
-          <option value="_BedLeave_3DPoints">Bed Leave</option>
-          <option value="_Leash_3DPoints">Leash</option>
-          <option value="_Unleash_3DPoints">Unleash</option>
-          <option value="_Shear_3DPoints">Shear</option>
-          <option value="_BucketFill_3DPoints">Bucket Fill</option>
-          <option value="_BucketEmpty_3DPoints">Bucket Empty</option>
-          <option value="_Enchant_3DPoints">Enchant Item</option>
-          <option value="_EggThrow_3DPoints">Egg Throw</option> -->
+        <select id="EventSelect" name="form_select" onchange="onChange()">
+          <option value="PlayerMoveEvent">Movement</option>
+          <option value="PlayerDeathEvent">Deaths</option>
+          <option value="BlockBreakEvent">Block Break</option>
+          <option value="BlockPlaceEvent">Block Place</option>
+          <option value="PlayerJoinEvent">Player Join</option>
+          <option value="PlayerQuitEvent">Player Quit</option>
+          <option value="PlayerChangedWorldEvent">Changed World</option>
+          <option value="EntityDamageByEntityEvent">Damage</option>
+          <option value="PlayerInteractEvent">Interact</option>
+          <option value="PlayerRespawnEvent">Respawn</option>
+          <option value="ProjectileHitEvent">Projectile Hit</option>
+          <option value="PlayerDropItemEvent">Drop Item</option>
+          <option value="PlayerBedEnterEvent">Bed Enter</option>
+          <option value="PlayerBedLeaveEvent">Bed Leave</option>
+          <option value="PlayerLeashEntityEvent">Leash</option>
+          <option value="PlayerUnleashEntityEvent">Unleash</option>
+          <option value="PlayerShearEntityEvent">Shear</option>
+          <option value="PlayerBucketFillEvent">Bucket Fill</option>
+          <option value="PlayerBucketEmptyEvent">Bucket Empty</option>
+          <option value="EnchantItemEvent">Enchant Item</option>
+          <option value="PlayerEggThrowEvent">Egg Throw</option>
         </select>
       </div>
       <div class="col-sm-5"></div>
@@ -93,78 +93,11 @@
     
       <h3 id="Overworld_title" class="worldTitle" value="Overworld" style="display:block;">The Overworld</h3>
       <div class="container">
-        <div class="map" id='Overworld_PlayerMoveEvent_3DPoints' style="display:block;"></div>
-        <!-- <div class="map" id='Overworld_PlayerDeathEvent_3DPoints' style="display:none;"></div> -->
-        <!-- <div class="map" id='Overworld_BlockBreakEvent_3DPoints' style="display:none;"></div>
-        <div class="map" id='Overworld_BlockPlaceEvent_3DPoints' style="display:none;"></div> -->
-        <!-- <div class="map" id='Overworld_Join_3DPoints' style="display:none;"></div>
-        <div class="map" id='Overworld_Quit_3DPoints' style="display:none;"></div> -->
-        <!-- <div class="map" id='Overworld_ChangeWorld_3DPoints' style="display:none;"></div>
-        <div class="map" id='Overworld_Damage_3DPoints' style="display:none;"></div>
-        <div class="map" id='Overworld_Interact_3DPoints' style="display:none;"></div>
-        <div class="map" id='Overworld_Respawn_3DPoints' style="display:none;"></div>
-        <div class="map" id='Overworld_ProjectileHit_3DPoints' style="display:none;"></div>
-        <div class="map" id='Overworld_DropItem_3DPoints' style="display:none;"></div>
-        <div class="map" id='Overworld_BedEnter_3DPoints' style="display:none;"></div>
-        <div class="map" id='Overworld_BedLeave_3DPoints' style="display:none;"></div>
-        <div class="map" id='Overworld_Leash_3DPoints' style="display:none;"></div>
-        <div class="map" id='Overworld_Unleash_3DPoints' style="display:none;"></div>
-        <div class="map" id='Overworld_Shear_3DPoints' style="display:none;"></div>
-        <div class="map" id='Overworld_BucketFill_3DPoints' style="display:none;"></div>
-        <div class="map" id='Overworld_BucketEmpty_3DPoints' style="display:none;"></div>
-        <div class="map" id='Overworld_Enchant_3DPoints' style="display:none;"></div>
-        <div class="map" id='Overworld_EggThrow_3DPoints' style="display:none;"></div> -->
+        <div class="map" id='Event_3DPoints' style="display:block;"></div>
       </div>
       <!-- <div id='my3DHeatMap'></div> -->
       <h3 id="Nether_title" class="worldTitle" value="Nether" style="display:none;">The Nether</h3>
-      <div class="container">
-      <!-- <div class="map" id='Nether_PlayerMoveEvent_3DPoints' style="display:none;"></div>
-      <div class="map" id='Nether_PlayerDeathEvent_3DPoints' style="display:none;"></div> -->
-      <!-- <div class="map" id='Nether_BlockBreakEvent_3DPoints' style="display:none;"></div>
-      <div class="map" id='Nether_BlockPlaceEvent_3DPoints' style="display:none;"></div> -->
-      <!-- <div class="map" id='Nether_Join_3DPoints' style="display:none;"></div>
-      <div class="map" id='Nether_Quit_3DPoints' style="display:none;"></div> -->
-      <!-- <div class="map" id='Nether_ChangeWorld_3DPoints' style="display:none;"></div>
-      <div class="map" id='Nether_Damage_3DPoints' style="display:none;"></div>
-      <div class="map" id='Nether_Interact_3DPoints' style="display:none;"></div>
-      <div class="map" id='Nether_Respawn_3DPoints' style="display:none;"></div>
-      <div class="map" id='Nether_ProjectileHit_3DPoints' style="display:none;"></div>
-      <div class="map" id='Nether_DropItem_3DPoints' style="display:none;"></div>
-      <div class="map" id='Nether_BedEnter_3DPoints' style="display:none;"></div>
-      <div class="map" id='Nether_BedLeave_3DPoints' style="display:none;"></div>
-      <div class="map" id='Nether_Leash_3DPoints' style="display:none;"></div>
-      <div class="map" id='Nether_Unleash_3DPoints' style="display:none;"></div>
-      <div class="map" id='Nether_Shear_3DPoints' style="display:none;"></div>
-      <div class="map" id='Nether_BucketFill_3DPoints' style="display:none;"></div>
-      <div class="map" id='Nether_BucketEmpty_3DPoints' style="display:none;"></div>
-      <div class="map" id='Nether_Enchant_3DPoints' style="display:none;"></div>
-      <div class="map" id='Nether_EggThrow_3DPoints' style="display:none;"></div> -->
-      </div>
-  
       <h3 id="End_title" class="worldTitle" value="End" style="display:none;">The End</h3>
-      <div class="container">
-      <!-- <div class="map" id='End_PlayerMoveEvent_3DPoints' style="display:none;"></div>
-      <div class="map" id='End_PlayerDeathEvent_3DPoints' style="display:none;"></div> -->
-      <!-- <div class="map" id='End_BlockBreakEvent_3DPoints' style="display:none;"></div>
-      <div class="map" id='End_BlockPlaceEvent_3DPoints' style="display:none;"></div> -->
-      <!-- <div class="map" id='End_Join_3DPoints' style="display:none;"></div>
-      <div class="map" id='End_Quit_3DPoints' style="display:none;"></div> -->
-      <!-- <div class="map" id='End_ChangeWorld_3DPoints' style="display:none;"></div>
-      <div class="map" id='End_Damage_3DPoints' style="display:none;"></div>
-      <div class="map" id='End_Interact_3DPoints' style="display:none;"></div>
-      <div class="map" id='End_Respawn_3DPoints' style="display:none;"></div>
-      <div class="map" id='End_ProjectileHit_3DPoints' style="display:none;"></div>
-      <div class="map" id='End_DropItem_3DPoints' style="display:none;"></div>
-      <div class="map" id='End_BedEnter_3DPoints' style="display:none;"></div>
-      <div class="map" id='End_BedLeave_3DPoints' style="display:none;"></div>
-      <div class="map" id='End_Leash_3DPoints' style="display:none;"></div>
-      <div class="map" id='End_Unleash_3DPoints' style="display:none;"></div>
-      <div class="map" id='End_Shear_3DPoints' style="display:none;"></div>
-      <div class="map" id='End_BucketFill_3DPoints' style="display:none;"></div>
-      <div class="map" id='End_BucketEmpty_3DPoints' style="display:none;"></div>
-      <div class="map" id='End_Enchant_3DPoints' style="display:none;"></div>
-      <div class="map" id='End_EggThrow_3DPoints' style="display:none;"></div> -->
-      </div>
       <script src="../src/js/3D.js"></script>
   </body>
 </html>
