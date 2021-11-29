@@ -61,9 +61,9 @@ input[type="button"] {
     width: 12vw;
     position: fixed;
     display: flex;
-    overflow-y: scroll;
+    overflow: scroll;
     min-height: 50vh;
-    max-height: 92vh;
+    max-height: 80vh;
 }
 
 #checkbox{
@@ -73,6 +73,8 @@ input[type="button"] {
 #days-container{
     margin: 0 auto;
     width: 20vw;
+    align-self: center;
+    text-align: center;
 }
 
 #playerList{
