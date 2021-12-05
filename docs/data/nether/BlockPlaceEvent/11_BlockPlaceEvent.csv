@@ -1,14 +1,3 @@
-x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
--311,56,67,11,world_nether,17813989,OBSIDIAN,,,,,,,,,,,
--310,80,74,11,world_nether,17815064,BASALT,,,,,,,,,,,
--311,75,74,11,world_nether,17818024,BASALT,,,,,,,,,,,
--312,68,71,11,world_nether,17818817,BASALT,,,,,,,,,,,
--208,67,85,11,world_nether,17828608,COBBLESTONE,,,,,,,,,,,
--9,71,71,11,world_nether,17832883,BASALT,,,,,,,,,,,
-81,82,91,11,world_nether,17835435,NETHERRACK,,,,,,,,,,,
-55,74,84,11,world_nether,17845283,NETHERRACK,,,,,,,,,,,
--217,57,90,11,world_nether,17930746,COBBLESTONE,,,,,,,,,,,
--13,59,76,11,world_nether,17936801,COBBLESTONE,,,,,,,,,,,
--230,59,83,11,world_nether,17956836,DIORITE,,,,,,,,,,,
--63,78,327,11,world_nether,19821723,NETHERRACK,,,,,,,,,,,
--268,63,34,11,world_nether,35564054,BASALT,,,,,,,,,,,
+version https://git-lfs.github.com/spec/v1
+oid sha256:c2671c0ecfae171211fc008515c8d085792c32b2a30ffed093648395e611a7bc
+size 654041

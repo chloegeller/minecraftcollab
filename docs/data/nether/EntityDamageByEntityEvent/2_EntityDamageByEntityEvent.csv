@@ -1,4 +1,0 @@
-x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
--454,57,219,2,world_nether,9262611,,MAGMA_CUBE,ENTITY_ATTACK,BASALT,,,,,,,,
--522,65,174,2,world_nether,12503404,,MAGMA_CUBE,ENTITY_ATTACK,COBBLESTONE,,,,,,,,
--501,51,-17,2,world_nether,25332122,,PIGLIN,ENTITY_ATTACK,NETHERITE_SWORD,,,,,,,,

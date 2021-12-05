@@ -1,2 +1,3 @@
-x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
-26,38,246,11,world_nether,23735342,,PIGLIN,ENTITY_ATTACK,IRON_SWORD,,,,,,,,
+version https://git-lfs.github.com/spec/v1
+oid sha256:25d8e709083be9fb119ede78a85f27ec7ed29f9a431aa853afc2d2add802c04b
+size 213655

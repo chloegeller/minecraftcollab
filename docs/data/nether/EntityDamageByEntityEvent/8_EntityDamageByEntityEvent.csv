@@ -1,8 +1,0 @@
-x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
--76,47,134,8,world_nether,25118120,,MAGMA_CUBE,ENTITY_ATTACK,BAKED_POTATO,,,,,,,,
--76,47,134,8,world_nether,25118624,,MAGMA_CUBE,ENTITY_ATTACK,BAKED_POTATO,,,,,,,,
--75,44,127,8,world_nether,25119121,,MAGMA_CUBE,ENTITY_ATTACK,BAKED_POTATO,,,,,,,,
--54,60,165,8,world_nether,25124952,,SKELETON,ENTITY_ATTACK,COBBLESTONE,,,,,,,,
--538,59,70,8,world_nether,26288513,,ZOMBIFIED_PIGLIN,ENTITY_ATTACK,DIAMOND_SWORD,,,,,,,,
--121,34,101,8,world_nether,26308143,,MAGMA_CUBE,ENTITY_ATTACK,DIAMOND_SWORD,,,,,,,,
--108,32,111,8,world_nether,26312738,,MAGMA_CUBE,ENTITY_ATTACK,DIAMOND_SWORD,,,,,,,,

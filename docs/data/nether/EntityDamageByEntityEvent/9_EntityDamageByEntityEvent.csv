@@ -1,5 +1,3 @@
-x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
-256,33,-45,9,world_nether,17800448,,FIREBALL,ENTITY_ATTACK,COOKED_PORKCHOP,,,,,,,,
-325,69,75,9,world_nether,17812530,,ENDERMAN,ENTITY_ATTACK,IRON_AXE,,,,,,,,
-357,62,-2,9,world_nether,17821077,,HOGLIN,ENTITY_ATTACK,IRON_AXE,,,,,,,,
-487,36,-267,9,world_nether,17849658,,SKELETON,ENTITY_ATTACK,IRON_AXE,,,,,,,,
+version https://git-lfs.github.com/spec/v1
+oid sha256:156b54f6569b2a3fd6ff3d79ff4c59caef587ab19c69c8a34fef4906ef5782f5
+size 12034
