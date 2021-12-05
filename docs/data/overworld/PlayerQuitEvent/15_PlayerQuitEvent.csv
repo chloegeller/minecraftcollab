@@ -1,1 +1,3 @@
-x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
+version https://git-lfs.github.com/spec/v1
+oid sha256:424493f61accb616cc65c408209a37ed06703d7fa924864f31443cde2231f62d
+size 4064

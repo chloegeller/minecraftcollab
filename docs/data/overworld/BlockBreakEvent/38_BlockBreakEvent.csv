@@ -1,13 +1,3 @@
-x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
--60,68,31,38,world,24971658,OAK_LOG,,,,,,,,,,,
--73,66,-1,38,world,25070875,QUARTZ_BLOCK,,,,,,,,,,,
--3656,67,995,38,world,25160614,TALL_GRASS,,,,,,,,,,,
--3576,74,1042,38,world,25162158,OAK_LEAVES,,,,,,,,,,,
--3576,74,1042,38,world,25162607,OAK_LEAVES,,,,,,,,,,,
--3612,66,1006,38,world,25170601,GRASS_BLOCK,,,,,,,,,,,
--4426,70,1178,38,world,46116934,DIRT,,,,,,,,,,,
--4425,71,1181,38,world,46117163,MYCELIUM,,,,,,,,,,,
--4422,73,1182,38,world,46117351,DIRT,,,,,,,,,,,
--4421,71,1182,38,world,46117475,DIRT,,,,,,,,,,,
--4422,70,1174,38,world,46146079,COBBLESTONE,,,,,,,,,,,
--4423,71,1184,38,world,46149617,COBBLESTONE,,,,,,,,,,,
+version https://git-lfs.github.com/spec/v1
+oid sha256:34fa8d9e26d311f8c3d580719fa8f664488346da33e34879f9e772f0668788c3
+size 14967

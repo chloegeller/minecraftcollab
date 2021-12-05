@@ -1,18 +1,3 @@
-x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
--4340,76,1183,29,world,17664137,OAK_PLANKS,,,,,,,,,,,
--4355,29,1201,29,world,17671025,COBBLESTONE,,,,,,,,,,,
--4355,49,1201,29,world,17671766,COBBLESTONE,,,,,,,,,,,
--4409,67,1071,29,world,19392331,BOOKSHELF,,,,,,,,,,,
--4345,77,1201,29,world,19459504,COBBLESTONE,,,,,,,,,,,
--4344,77,1202,29,world,21318261,COBBLESTONE,,,,,,,,,,,
-475,6,1403,29,world,21357680,DIORITE,,,,,,,,,,,
-465,64,1390,29,world,21362035,DIRT,,,,,,,,,,,
-465,54,1405,29,world,26606610,FURNACE,,,,,,,,,,,
-462,14,1404,29,world,26613506,WALL_TORCH,,,,,,,,,,,
-344,68,1443,29,world,26623058,COBBLESTONE,,,,,,,,,,,
-465,54,1401,29,world,26670453,OBSIDIAN,,,,,,,,,,,
-455,53,1404,29,world,27736459,DIRT,,,,,,,,,,,
-477,54,1401,29,world,27757386,COBBLESTONE,,,,,,,,,,,
-477,54,1402,29,world,27759925,BOOKSHELF,,,,,,,,,,,
--49,30,2013,29,world,27890334,NETHER_WART,,,,,,,,,,,
-334,61,1450,29,world,27898737,DIRT,,,,,,,,,,,
+version https://git-lfs.github.com/spec/v1
+oid sha256:b2cb339c0eb0c25a7a18edf9ea59188a82470b0e0540857bd074aad6db9493e8
+size 1158055

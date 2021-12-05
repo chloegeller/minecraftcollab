@@ -1,10 +1,3 @@
-x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
-8,55,91,16,world,2731240,COBBLESTONE,,,,,,,,,,,
-9,57,91,16,world,2732336,COBBLESTONE,,,,,,,,,,,
-8,49,85,16,world,2737166,WALL_TORCH,,,,,,,,,,,
--406,58,258,16,world,2753006,COBBLESTONE,,,,,,,,,,,
--406,28,290,16,world,2758516,COBBLESTONE,,,,,,,,,,,
--403,25,290,16,world,2784689,COBBLESTONE,,,,,,,,,,,
--407,71,252,16,world,2790207,COBBLESTONE,,,,,,,,,,,
--171,63,2,16,world,2793779,SUGAR_CANE,,,,,,,,,,,
--177,62,13,16,world,2797839,WHEAT,,,,,,,,,,,
+version https://git-lfs.github.com/spec/v1
+oid sha256:d29d1f33830dc5ded3266b2c9576bda69012eaf0ef8ffe53d981f6b5998df8b7
+size 83309

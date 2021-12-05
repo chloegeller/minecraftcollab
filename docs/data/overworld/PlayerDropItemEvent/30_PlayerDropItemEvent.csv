@@ -1,2 +1,3 @@
-x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
--1270,70,657,30,world,25296127,,,,,,,Stone Sword,,,,,
+version https://git-lfs.github.com/spec/v1
+oid sha256:747dccf2d8be48d3cd3dff1a6bb4744901f6b945c4de247406628455271a9484
+size 18599

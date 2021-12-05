@@ -1,6 +1,3 @@
-x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
--189,63,-121,23,world,10097506,,,,,,,,,,,,
-78,65,50,23,world,10647112,,,,,,,,,,,,
-12,95,59,23,world,10866178,,,,,,,,,,,,
--2416,152,456,23,world,21711225,,,,,,,,,,,,
--2477,64,594,23,world,37936819,,,,,,,,,,,,
+version https://git-lfs.github.com/spec/v1
+oid sha256:ea697f09f4a485bafba1f9c03f119f7845c7819a00b39ed1003e8757819be13e
+size 628

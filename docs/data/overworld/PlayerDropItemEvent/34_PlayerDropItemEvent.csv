@@ -1,6 +1,3 @@
-x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
--326,66,27,34,world,39013392,,,,,,,Bow,,,,,
--425,11,113,34,world,40471061,,,,,,,Cobblestone,,,,,
--219,64,62,34,world,42225466,,,,,,,Bow,,,,,
--327,64,38,34,world,42745281,,,,,,,Leather Cap,,,,,
--301,50,38,34,world,42779888,,,,,,,Oak Sapling,,,,,
+version https://git-lfs.github.com/spec/v1
+oid sha256:21f21f25fb001a9a7d325992c3105e421cf252f051d7c6ef0061b79d2f8948d4
+size 2613

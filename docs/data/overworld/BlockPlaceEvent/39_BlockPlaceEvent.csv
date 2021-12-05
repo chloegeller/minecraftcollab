@@ -1,17 +1,3 @@
-x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
-545,63,132,39,world,34964455,GRAVEL,,,,,,,,,,,
-611,51,962,39,world,34979171,SAND,,,,,,,,,,,
-851,62,969,39,world,34983944,DIRT,,,,,,,,,,,
-850,62,965,39,world,34984130,DIRT,,,,,,,,,,,
-848,62,969,39,world,34985383,SAND,,,,,,,,,,,
-862,70,943,39,world,34990126,CHEST,,,,,,,,,,,
-864,70,943,39,world,34992308,SAND,,,,,,,,,,,
-873,28,968,39,world,34998509,WALL_TORCH,,,,,,,,,,,
-856,11,965,39,world,35005043,SMOOTH_BASALT,,,,,,,,,,,
-881,42,915,39,world,40995184,COBBLESTONE,,,,,,,,,,,
-878,60,918,39,world,41038219,COBBLESTONE,,,,,,,,,,,
-874,45,933,39,world,41043988,COBBLESTONE,,,,,,,,,,,
-873,56,955,39,world,41049017,COBBLESTONE,,,,,,,,,,,
-919,11,946,39,world,41074004,COBBLESTONE,,,,,,,,,,,
-930,11,946,39,world,41084274,CRAFTING_TABLE,,,,,,,,,,,
-1124,12,896,39,world,41093019,COBBLESTONE,,,,,,,,,,,
+version https://git-lfs.github.com/spec/v1
+oid sha256:d2b8d39cab919bea2122c81a228a64bbe82c76d5350007da9ce76a2a7c5b4afe
+size 1380

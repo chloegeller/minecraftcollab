@@ -1,3 +1,3 @@
-x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
--4429,67,1148,3,world,15927866,,,,,,world_nether,,,,,,
--4376,70,1108,3,world,20560666,,,,,,world_the_end,,,,,,
+version https://git-lfs.github.com/spec/v1
+oid sha256:9779cb1da4735a9c1484c4bc1239c0c144206b9693a2849163c0a0754067bed9
+size 380

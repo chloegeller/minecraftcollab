@@ -1,5 +1,3 @@
-x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
--4281,19,1264,32,world,17705524,,SKELETON,ENTITY_ATTACK,DIAMOND_SWORD,,,,,,,,
--135,91,78,32,world,17848911,,SKELETON,ENTITY_ATTACK,DIAMOND_SWORD,,,,,,,,
--410,87,102,32,world,19411771,,ZOMBIE,ENTITY_ATTACK,DIAMOND_SWORD,,,,,,,,
--619,65,493,32,world,19432743,,ZOMBIE,ENTITY_ATTACK,DIAMOND_SWORD,,,,,,,,
+version https://git-lfs.github.com/spec/v1
+oid sha256:c570795f0894a34bf928b334c8e894256afc31c7221fa9c157e356c94088a899
+size 8450

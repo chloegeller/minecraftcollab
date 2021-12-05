@@ -1,7 +1,3 @@
-x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
--289,65,62,5,world,763132,,ZOMBIE,ENTITY_ATTACK,STONE_SWORD,,,,,,,,
--361,81,126,5,world,771714,,PLAYER,ENTITY_ATTACK,STONE_SWORD,,,,,,,,
--500,70,249,5,world,778300,,SHEEP,ENTITY_ATTACK,STONE_SWORD,,,,,,,,
-45,62,167,5,world,783932,,PLAYER,ENTITY_ATTACK,AIR,,,,,,,,
-14,64,12,5,world,5126514,,VILLAGER,ENTITY_ATTACK,DIAMOND_SWORD,,,,,,,,
--224,63,3,5,world,5157973,,ZOMBIE,ENTITY_ATTACK,DIAMOND_SWORD,,,,,,,,
+version https://git-lfs.github.com/spec/v1
+oid sha256:f4f8cf182178e9fbfaa61e5a481418c1edac62934a3f651e072fa529bfbee19c
+size 15128

@@ -1,23 +1,3 @@
-x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
--107,64,84,26,world,12440553,OAK_LOG,,,,,,,,,,,
--201,67,46,26,world,12443666,DARK_OAK_LOG,,,,,,,,,,,
--201,67,46,26,world,12444155,DARK_OAK_LOG,,,,,,,,,,,
--195,66,47,26,world,12445025,GRASS_BLOCK,,,,,,,,,,,
--188,67,46,26,world,12445309,GRASS_BLOCK,,,,,,,,,,,
--188,68,43,26,world,12445971,DARK_OAK_LOG,,,,,,,,,,,
--186,70,43,26,world,12446845,DARK_OAK_LOG,,,,,,,,,,,
--185,67,44,26,world,12447670,RED_MUSHROOM_BLOCK,,,,,,,,,,,
--194,70,45,26,world,12456173,DARK_OAK_LOG,,,,,,,,,,,
--183,69,46,26,world,12457045,RED_MUSHROOM_BLOCK,,,,,,,,,,,
--184,68,46,26,world,12457171,RED_MUSHROOM_BLOCK,,,,,,,,,,,
--192,66,49,26,world,12458333,GRASS_BLOCK,,,,,,,,,,,
--186,66,43,26,world,12458567,GRASS_BLOCK,,,,,,,,,,,
--192,66,45,26,world,12458980,GRASS_BLOCK,,,,,,,,,,,
--194,68,51,26,world,12462270,DARK_OAK_PLANKS,,,,,,,,,,,
--230,61,56,26,world,12463478,DIORITE,,,,,,,,,,,
--237,56,54,26,world,12464300,STONE,,,,,,,,,,,
--237,56,51,26,world,12464814,STONE,,,,,,,,,,,
--206,63,61,26,world,12465425,SAND,,,,,,,,,,,
--180,67,47,26,world,12468465,DIRT,,,,,,,,,,,
--177,70,44,26,world,12469352,OAK_LEAVES,,,,,,,,,,,
--197,66,49,26,world,12471959,DIRT,,,,,,,,,,,
+version https://git-lfs.github.com/spec/v1
+oid sha256:95f864e7b7a1e4cc3a6c3f0ee0b9498be45d2cbc3faa4fae02fa33d53466219b
+size 45850

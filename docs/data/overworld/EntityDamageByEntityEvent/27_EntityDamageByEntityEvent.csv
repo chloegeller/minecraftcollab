@@ -1,2 +1,3 @@
-x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
--154,63,10,27,world,15617174,,SPIDER,ENTITY_ATTACK,IRON_SWORD,,,,,,,,
+version https://git-lfs.github.com/spec/v1
+oid sha256:a094c612e1eeee9a04bb1a69e19d3d8170fe926eb8cd070bad46e6e56033104e
+size 3022

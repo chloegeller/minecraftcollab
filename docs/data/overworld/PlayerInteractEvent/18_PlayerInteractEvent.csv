@@ -1,4 +1,0 @@
-x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
-62,63,-67,18,world,30480741,,,,,,,,,,,STONE_SWORD,RIGHT_CLICK_AIR
-1270,70,-335,18,world,30488398,,,,,,,,,,,STONE_PICKAXE,LEFT_CLICK_BLOCK
-1294,67,-342,18,world,30488783,,,,,,,,,,,STONE_AXE,LEFT_CLICK_AIR

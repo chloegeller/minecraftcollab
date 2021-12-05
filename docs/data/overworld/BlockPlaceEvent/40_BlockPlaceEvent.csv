@@ -1,15 +1,3 @@
-x,y,z,player,worldName,time,block,damaged,cause,weapon,target,oldWorld,itemDrop,entity,hatched,contents,itemHeld,action
--406,82,215,40,world,36918920,DIRT,,,,,,,,,,,
--405,84,211,40,world,36919722,JUNGLE_PLANKS,,,,,,,,,,,
--401,84,217,40,world,36920416,JUNGLE_PLANKS,,,,,,,,,,,
--401,84,215,40,world,36921027,JUNGLE_PLANKS,,,,,,,,,,,
--408,85,218,40,world,36921536,JUNGLE_PLANKS,,,,,,,,,,,
--406,73,215,40,world,38625677,JUNGLE_LOG,,,,,,,,,,,
--408,72,217,40,world,38633108,DIRT,,,,,,,,,,,
--429,51,218,40,world,38645661,TORCH,,,,,,,,,,,
--411,48,234,40,world,38652121,WALL_TORCH,,,,,,,,,,,
--401,84,215,40,world,38653779,GLASS_PANE,,,,,,,,,,,
--409,85,215,40,world,38654853,WALL_TORCH,,,,,,,,,,,
--401,84,216,40,world,38655542,GLASS_PANE,,,,,,,,,,,
--399,38,234,40,world,38667235,WALL_TORCH,,,,,,,,,,,
--386,37,206,40,world,38673545,COBBLESTONE,,,,,,,,,,,
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd3c025d8e12b365befb3f7dd11c2668c11b620aec3cbdfdcc8c931f89d87af3
+size 27028
